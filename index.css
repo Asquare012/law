@@ -505,7 +505,7 @@ html {
         background-color: var(--blue);
         color: var(--white);
         position: relative;
-        top: -500;
+        top: -450;
         transition: 0.3s right ease-in-out;
         font-family: "Quicksand", sans-serif;
     }
@@ -707,8 +707,75 @@ html {
             }
             @media screen and (max-width: 480px) {
                 #container #main .head .up .left {
-                    margin-right: 5%;
-                    width: 400px;
+                    margin-right: 0;
+                    width: 200px;
+                    background-color: red;
+                    font-size: 10px;
+                }
+                #container #main .head .up .right button {
+                    font-size: 10px;
+                }
+                #container #main .head .down ul li:first-child {
+                    margin: 0 32% 0 12%;
+                }
+                #container #main .info h1 {
+                    font-size: 32px;
+                }
+                #container #main .info h3 {
+                    font-size: 16px;
+                }
+                #container #main .info #buttons button {
+                    padding: 8px 27px;
+                    font-size: 12px;
+                    font-family: "Roboto", sans-serif;
+                }
+                #container #about {
+                    margin-top: 150vh;
+                    height: 150vh;
+                    flex-direction: column;
+                    padding: 0 4% 0 4%;
+                }
+                #container #about .right {
+                    height: 95%;
+                }
+                #container #about .left .shape {
+                    height: 60%;
+                    width: 90%;
+                }
+                #container #about .right .title {
+                    font-size: 22px;
+                    padding-bottom: 20px;
+                    font-family: "Quicksand", sans-serif;
+                }
+                #container #about .right .story {
+                    font-size: 16px;
+                    padding-bottom: 10px;
+                    font-family: "Roboto", sans-serif;
+                }
+                #container #footer-container {
+                    height: 60vh;
+                }
+                #container footer .foot {
+                    height: 70%;
+                    width: 50%;
+                    margin: 2px 0;
+                }
+                #container footer .foot:first-child img {
+                    height: 30px;
+                }
+                #container footer .foot .text {
+                    margin: 5px 0;
+                    justify-content: flex-start;
+                }
+                #container footer .foot .text img {
+                    padding-right: 2px;
+                }
+                #container footer .foot:first-child .foot-title {
+                    padding-bottom: 30%;
+                }
+                #container footer .foot:not(first-child) .foot-title {
+                    font-size: 15px;
+                    padding-bottom: 2px;
                 }
             }
         }
