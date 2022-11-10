@@ -511,6 +511,7 @@ body {
         color: var(--white);
         position: relative;
         top: -350;
+        right: -100%;
         transition: 0.3s right ease-in-out;
         font-family: "Quicksand", sans-serif;
     }
@@ -566,33 +567,33 @@ body {
     }
     #container #main .info h3 {
         font-size: 20px;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
     #container #main .info button {
         font-size: 12px;
     }
     #container #main #shape {
-        height: 150vh;
+        height: 100vh;
         flex-direction: column;
         background-color: var(--dark-blue);
-        margin-top: -150px;
     }
     #container #main #shape .box {
         height: 230px;
         width: 85%;
         background-color: var(--blue);
         margin: 20px 0;
-        padding: 0 2%;
+        padding: 0 3%;
     }
     #container #about {
-        margin-top: 150vh;
-        height: 140vh;
         flex-direction: column;
         padding: 0 4% 0 4%;
     }
+    #container #about .left {
+        flex: 50%;
+    }
     #container #about .left .shape {
-        height: 85%;
-        width: 95%;
+        height: 100%;
+        width: 100%;
     }
     #container #about .left .shape img {
         margin: -15px 0 0 -15px;
