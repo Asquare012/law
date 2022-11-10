@@ -506,12 +506,11 @@ body {
     /* side menu */
     #side-menu {
         display: block;
-        height: 100vh;
         width: 100%;
         background-color: var(--blue);
         color: var(--white);
         position: relative;
-        top: -450;
+        top: -350;
         transition: 0.3s right ease-in-out;
         font-family: "Quicksand", sans-serif;
     }
@@ -684,7 +683,6 @@ body {
     }
     @media screen and (max-width: 750px) {
         #container #main .head .up .left {
-            margin-right: 30%;
             width: 300px;
         }
         @media screen and (max-width: 550px) {
@@ -714,8 +712,9 @@ body {
             @media screen and (max-width: 480px) {
                 #container #main .head .up .left {
                     margin-right: 0;
-                    width: 200px;
-                    font-size: 10px;
+                    padding: 0 0 0 5%;
+                    width: 300px;
+                    font-size: 8px;
                 }
                 #container #main .head .up .right button {
                     font-size: 10px;
@@ -723,19 +722,29 @@ body {
                 #container #main .head .down ul li:first-child {
                     margin: 0 32% 0 12%;
                 }
+                #container #main .info {
+                    height: 80vh;
+                }
                 #container #main .info h1 {
-                    font-size: 32px;
+                    font-size: 25px;
+                    padding: 30px 0 20px 0;
                 }
                 #container #main .info h3 {
-                    font-size: 16px;
+                    font-size: 14px;
+                    padding-bottom: 22px;
                 }
                 #container #main .info #buttons button {
-                    padding: 8px 27px;
+                    padding: 6px 25px;
                     font-size: 12px;
                     font-family: "Roboto", sans-serif;
                 }
+                #container #main .info #buttons button:first-child {
+                    padding: 8px 19px;
+                }
+                #container #main #shape {
+                    height: 120vh;
+                }
                 #container #about {
-                    margin-top: 150vh;
                     height: 150vh;
                     flex-direction: column;
                     padding: 0 4% 0 4%;
@@ -743,9 +752,13 @@ body {
                 #container #about .right {
                     height: 95%;
                 }
+                #container #about .left {
+                    height: 100%;
+                    width: 80%;
+                }
                 #container #about .left .shape {
-                    height: 60%;
-                    width: 90%;
+                    height: 50%;
+                    width: 95%;
                 }
                 #container #about .right .title {
                     font-size: 22px;
@@ -764,6 +777,9 @@ body {
                     height: 70%;
                     width: 100%;
                     margin: 2px 0;
+                }
+                #container footer .foot:first-child {
+                    font-size: 12px;
                 }
                 #container footer .foot:first-child img {
                     height: 30px;
